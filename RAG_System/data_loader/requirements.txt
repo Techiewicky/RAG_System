@@ -1,0 +1,5 @@
+openai>=1.0.0
+numpy
+ijson
+psycopg2-binary
+requests

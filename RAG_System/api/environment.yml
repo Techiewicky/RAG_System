@@ -1,0 +1,17 @@
+name: rag_system_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - fastapi
+  - uvicorn
+  - openai == 0.
+  - psycopg2-binary
+  - langchain
+  - conda-forge::langchain-openai
+  - pydantic
+  - pip
+  - pip:
+    - pgvector
+    - langchain-community
